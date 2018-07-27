@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Stay Awake Tab</title>
+    <style type="text/css">
+        #blank-video {
+            position: absolute;
+            top: -100;
+            left: -100;
+        }
+    </style>
+</head>
+<body>
+    <h1>Stay Awake Tab</h1>
+    <p>This browser tab will keep your computer from going to sleep</p>
+    <video id="blank-video" width="100" height="100" src="blank-video.mp4" 
+        loop controls></video>
+    <script type="text/javascript">
+        document.getElementById('blank-video').play();
+    </script>
+</body>
+</html>
